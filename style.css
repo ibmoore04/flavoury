@@ -61,6 +61,13 @@ body {
   text-decoration: none;
 }
 
+.menu-btn:hover{
+  background: transparent;
+  border: 2px solid white;
+  color: #dd6f6f;
+  transition: all 0.6s ease-in;
+}
+
 .carousel-item h2 {
   font-family: "Playball", cursive;
   font-size: 40px;
@@ -116,6 +123,13 @@ marquee h3 {
   color: #999999;
   font-size: 30px;
   font-family: "Bebas Neue", sans-serif;
+}
+
+.menu li:hover{
+  color: #c9454d;
+  text-decoration: underline;
+  transition: all 0.5s ease-in;
+  cursor: pointer;
 }
 
 .menu .card {
