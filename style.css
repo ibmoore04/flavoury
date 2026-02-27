@@ -189,6 +189,12 @@ marquee img {
   font-family: "Bebas Neue", sans-serif;
 }
 
+.stories h6:hover{
+  color: #d64545 !important;
+  transition: all 0.5s ease-in;
+  cursor: pointer;
+}
+
 .testimonial-section {
   background-image: url(./IMAGES/light-bg.jpg);
   background-size: cover;
