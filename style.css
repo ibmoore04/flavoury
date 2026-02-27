@@ -522,20 +522,17 @@ footer span {
   }
 }
 
-/* Wrapper */
 .slider-wrapper {
   overflow: hidden;
   position: relative;
 }
 
-/* Track */
 .slider-track {
   width: max-content;
   gap: 20px;
   animation: scrollLeft 25s linear infinite;
 }
 
-/* Individual item */
 .slider-item {
   flex: 0 0 auto;
   width: 18vw;
