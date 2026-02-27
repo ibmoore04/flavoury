@@ -52,6 +52,28 @@ body {
   border-radius: 20px;
 }
 
+.scroll-top {
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+  width: 55px;
+  height: 55px;
+  background: #d64545;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 3;
+  color: #f9f6f6;
+  font-size: 20px;
+}
+
+.scroll-top a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
 .menu-btn {
   background: #d64545;
   border: none;
@@ -61,7 +83,7 @@ body {
   text-decoration: none;
 }
 
-.menu-btn:hover{
+.menu-btn:hover {
   background: transparent;
   border: 2px solid white;
   color: #dd6f6f;
@@ -125,7 +147,7 @@ marquee h3 {
   font-family: "Bebas Neue", sans-serif;
 }
 
-.menu li:hover{
+.menu li:hover {
   color: #c9454d;
   text-decoration: underline;
   transition: all 0.5s ease-in;
@@ -189,7 +211,7 @@ marquee img {
   font-family: "Bebas Neue", sans-serif;
 }
 
-.stories h6:hover{
+.stories h6:hover {
   color: #d64545 !important;
   transition: all 0.5s ease-in;
   cursor: pointer;
